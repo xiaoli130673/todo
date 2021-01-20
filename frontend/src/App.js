@@ -72,7 +72,6 @@ class App extends Component {
         </span>
         <span>{item.due_date}</span>
         <span>{item.priority}</span>
-        {/* <span>{dateformat(new Date(item.due_date), 'dd-mmm-yyyy')}</span> */}
         <span>
           <button
             onClick={() => this.editItem(item)}
